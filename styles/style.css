@@ -309,7 +309,7 @@ a, a:hover, a:active, a:visited, a:focus {
         height: fit-content;
         justify-content: center;
         align-items: center;
-        /* margin-top: 5%; */
+        margin-top: 5%;
     }
     
     .persona {
@@ -328,6 +328,7 @@ a, a:hover, a:active, a:visited, a:focus {
         font-size: 18px;
         font-weight: 400;
         /* position: relative; */
+        margin-top: 5%;
         padding-bottom: 32px;
     }
     
