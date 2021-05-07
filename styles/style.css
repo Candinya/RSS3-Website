@@ -104,6 +104,13 @@ a, a:hover, a:active, a:visited, a:focus {
     cursor: pointer;
 }
 
+.socialMediaContainer a:hover {
+    background: rgb(0,199,0);
+    background: -moz-radial-gradient(circle, rgba(0, 199, 0, 0.79) 0%, rgba(61,222,237,0) 75%);
+    background: -webkit-radial-gradient(circle, rgba(0,199,0,0.79) 0%, rgba(61,222,237,0) 75%);
+    background: radial-gradient(circle, rgba(0,199,0,0.79) 0%, rgba(61,222,237,0) 75%);
+    border-radius: 50%;
+}
 .socialMedia {
     display: block;
     width: calc(var(--columnWidth)/2);
@@ -114,10 +121,12 @@ a, a:hover, a:active, a:visited, a:focus {
     cursor: pointer;
     
 }
+
 .socialMedia:hover {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 50%;
 }
+
 @media screen and (max-width: 1200px){
     .socialMedia {
         display: block;
