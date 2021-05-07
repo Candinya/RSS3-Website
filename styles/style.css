@@ -99,16 +99,24 @@ a, a:hover, a:active, a:visited, a:focus {
     height:100%;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     grid-area: 2/1/4/2;
+    cursor: pointer;
 }
 
 .socialMedia {
     display: block;
-    width: var(--columnWidth);
+    width: calc(var(--columnWidth)/2);
     height: calc(var(--columnWidth)/2);
     background-position: center;
     background-size: calc(var(--columnWidth)/5) auto ;
     background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.socialMedia:hover {
+    border: 1px solid #000;
+    border-radius: 50%;
 }
 @media screen and (max-width: 1200px){
     .socialMedia {
