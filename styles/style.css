@@ -182,6 +182,22 @@ a, a:hover, a:active, a:visited, a:focus {
     border: 1px solid #000;
 }
 
+.titleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.logoTitle {
+    height: calc(0.8*var(--columnWidth));
+}
+.subtitle {
+    /* line-height: 1; */
+    margin-block-end: 0;
+}
 .brief {
     display: block;
     width: 100%;
@@ -227,22 +243,26 @@ backdrop-filter: blur(75.0667px);
     display: none;
 }
 
-.personaContainer {
+.rss3Container {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 
-.persona {
-    display: block;
-    width: 100%;
+.rss3 {
+    /* display: block; */
+    /* width: 100%; */
     height: 75%;
     background-position: center;
     background-size: 75%;
     background-repeat: no-repeat;
     border: 1px solid #000;
-    background-image: url(../assets/images/RSS3Personasvg.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-image: url(../assets/images/RSS3Personasvg.svg); */
 }
 
 .footer {
@@ -359,7 +379,7 @@ backdrop-filter: blur(75.0667px);
     #reddit {
         background-image: url(../assets/images/Reddit_mb.svg);
     }
-    .personaContainer {
+    .rss3Container {
         display: flex;
         width: 100%;
         height: fit-content;
@@ -368,13 +388,15 @@ backdrop-filter: blur(75.0667px);
         margin-top: 5%;
     }
     
-    .persona {
-        display: block;
+    .rss3 {
         width: 85%;
         /* padd */
         min-height: 880px;
         /* background-image: none; */
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
     }   
     .footer {
         display: none;
