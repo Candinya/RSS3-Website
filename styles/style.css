@@ -46,9 +46,11 @@ body {
     background-color: #fff;
     position: relative;
     scrollbar-width: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
-
+pre {
+font-family: 'Montserrat', sans-serif;
+}
 h1 {
     font-weight: 600;
     font-size: var(--h1);
@@ -263,6 +265,7 @@ backdrop-filter: blur(75.0667px);
     align-items: center;
     width: 100%;
     /* background-image: url(../assets/images/RSS3Personasvg.svg); */
+    font-size: 12px;
 }
 
 .footer {
