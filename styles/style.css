@@ -265,7 +265,7 @@ backdrop-filter: blur(75.0667px);
     align-items: center;
     width: 100%;
     /* background-image: url(../assets/images/RSS3Personasvg.svg); */
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .footer {
@@ -399,7 +399,7 @@ backdrop-filter: blur(75.0667px);
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 22px;
+        font-size: 28px;
     }   
     .footer {
         display: none;

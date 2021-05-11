@@ -79,21 +79,6 @@
         <div class="rss3Container">
             <div class="rss3">
                 <pre>
-// Common attributes for each file
-interface RSS3Base { 
-    id: Address;
-    version: string;
-    type: string;
-    date_created: string;
-    date_updated: string;
-    editors?: {
-        blocklist?: Address[]; 
-        allowlist?: Address[]; 
-    };
-    items: any[];
-    items_next?: Address; 
-}
-
 // Entrance, RSS3Persona file
 interface RSS3Persona extends RSS3Base {
     type: 'persona';
